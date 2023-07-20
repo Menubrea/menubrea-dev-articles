@@ -141,4 +141,4 @@ WebP is a highly effective option for optimizing web images, resulting in faster
 
 However, as technologies continue to evolve, file formats like avif and JPEG XL may eventually surpass WebP in terms of web optimization. Stay tuned for a future article where I will cover these formats in more detail.
 
-The Markdown for this article as well as associated resources used can be located [here]().
+The Markdown for this article as well as associated resources used can be located [here](https://github.com/Menubrea/menubrea-dev-articles/blob/main/articles/web/webp/what-is-webp.md).
