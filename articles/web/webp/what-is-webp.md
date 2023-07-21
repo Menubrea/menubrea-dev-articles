@@ -33,14 +33,17 @@ Beyond considering the situations and locations from which your target demograph
 Using image compression will always result in a reduction in image quality, ranging from hardly noticeable to incredibly jarring. However, it shouldn't be applied without considering the following factors:
 
 - Is it properly sized?
+
   It is quite common for images to have much larger dimensions than necessary. Therefore, optimizing media should begin by examining its dimensions. While responsive web design may require dynamic sizing, you should still determine the maximum acceptable size.
 
 - What purpose does it serve?
+
   In situations where images complement the rest of the content, some loss in quality may be more acceptable. However, if an image is the primary focus, such as a promotional image for a new product, compromising quality might not an alternative.
 
   On the other hand, in an informative article, where media and images are usually complementary, compressing them to reduce load times becomes a more attractive option.
 
 - How large is it?
+
   The larger an image, the more noticeable artifacts will be due to its size. Therefore, selective application of compression is recommended. It's worth noting that lossy WebP's compression algorithms aim to mask imperfections by removing unimportant data only,
 
 #### In animations
@@ -74,7 +77,6 @@ sudo apt-get install webp
 To install Homebrew (if you haven't already) on your MacOS platform, start by running the following command:
 
 ```shell
-// "install Homebrew if you haven't already"
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
